@@ -50,6 +50,7 @@ p {
 /*リスト*/
 .list-4 {
     border: 2px solid #2589d0;
+    text-align: left;
 }
 .list-4 div {
     margin: 0;
