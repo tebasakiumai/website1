@@ -72,3 +72,20 @@ p {
     color: #2589d0;
     font-size: 1.1em;
 }
+/* 右サイドバー */
+.sidebar {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 250px;
+    height: 100vh;
+    overflow-y: auto;
+    background: #f4f6f9;
+    padding: 20px;
+}
+
+/* メイン */
+.main {
+    margin-right: 270px; /* サイドバー分 */
+    padding: 20px;
+}
