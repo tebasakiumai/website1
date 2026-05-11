@@ -86,12 +86,18 @@ p {
 /* 右サイドバー */
 .sidebar {
     position: fixed;
+
     right: 0;
-    top: 0;
+    top: 100px;                 /* ヘッダー分下げる */
+
     width: 250px;
-    height: 100vh;
+
+    height: calc(100vh - 100px); /* 高さ調整 */
+
     overflow-y: auto;
+
     background: #f4f6f9;
+
     padding: 20px;
 }
 
@@ -99,4 +105,5 @@ p {
 .main {
     margin-right: 270px; /* サイドバー分 */
     padding: 20px;
+    padding-top: 20px;
 }
