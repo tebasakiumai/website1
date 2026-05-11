@@ -7,7 +7,6 @@ body {
     min-height: 100vh;
     margin: 0;
     font-family: "Helvetica Neue", Arial, sans-serif;
-    background: linear-gradient(to right, #f5f7fa, #e4ecf7);
     text-align: center;
     overflow-x: hidden;
     overscroll-behavior: none;
