@@ -5,6 +5,7 @@ body {
     font-family: "Helvetica Neue", Arial, sans-serif;
     background: linear-gradient(to right, #f5f7fa, #e4ecf7);
     text-align: center;
+    overflow-x: hidden;
 }
 
 /* メインタイトル */
