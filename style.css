@@ -38,6 +38,9 @@ h1 {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.section:last-child {
+    margin-bottom: 0;
+}
 
 /* ホバー効果 */
 .section.hover:hover {
@@ -86,18 +89,12 @@ p {
 /* 右サイドバー */
 .sidebar {
     position: fixed;
-
     right: 0;
     top: 100px;                 /* ヘッダー分下げる */
-
     width: 250px;
-
     height: calc(100vh - 100px); /* 高さ調整 */
-
     overflow-y: auto;
-
     background: #f4f6f9;
-
     padding: 20px;
 }
 
