@@ -7,6 +7,7 @@ body {
     background: linear-gradient(to right, #f5f7fa, #e4ecf7);
     text-align: center;
     overflow-x: hidden;
+    overscroll-behavior: none;
 }
 
 /* メインタイトル */
